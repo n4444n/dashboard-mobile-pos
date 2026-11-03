@@ -1,0 +1,39 @@
+{
+  "name": "tally-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "n4444n (https://github.com/n4444n/Point-of-Sale)",
+  "description": "Tally — แอปมือถือดูรายงานยอดขายจาก Clothing POS · Expo (React Native) + TypeScript",
+  "main": "index.ts",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "fix-deps": "expo install --fix"
+  },
+  "dependencies": {
+    "@expo-google-fonts/ibm-plex-sans-thai": "^0.4.0",
+    "@expo-google-fonts/prompt": "^0.4.0",
+    "@expo/metro-runtime": "~6.1.2",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "expo": "~54.0.0",
+    "expo-font": "~14.0.8",
+    "expo-status-bar": "~3.0.8",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.4",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-svg": "15.12.1",
+    "react-native-web": "^0.21.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "typescript": "~5.9.2"
+  }
+}

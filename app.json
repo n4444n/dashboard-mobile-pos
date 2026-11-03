@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Tally",
+    "slug": "tally-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "backgroundColor": "#F3F4FA",
+    "android": {
+      "package": "tech.sh0p.tally",
+      "versionCode": 1,
+      "edgeToEdgeEnabled": true
+    },
+    "ios": {
+      "bundleIdentifier": "tech.sh0p.tally",
+      "buildNumber": "1",
+      "supportsTablet": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "Tally",
+      "shortName": "Tally",
+      "themeColor": "#5466F5",
+      "backgroundColor": "#F3F4FA"
+    }
+  }
+}
